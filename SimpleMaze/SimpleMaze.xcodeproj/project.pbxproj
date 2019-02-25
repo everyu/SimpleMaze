@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9702CFA6222018D100913CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702CFA5222018D100913CCB /* AppDelegate.m */; };
+		9702CFA9222018D100913CCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702CFA8222018D100913CCB /* ViewController.m */; };
+		9702CFAC222018D100913CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9702CFAA222018D100913CCB /* Main.storyboard */; };
+		9702CFAE222018D200913CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9702CFAD222018D200913CCB /* Assets.xcassets */; };
+		9702CFB1222018D200913CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9702CFAF222018D200913CCB /* LaunchScreen.storyboard */; };
+		9702CFB4222018D200913CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702CFB3222018D200913CCB /* main.m */; };
+		9702CFBC22201AEB00913CCB /* MazeAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702CFBB22201AEB00913CCB /* MazeAlgorithm.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9702CFA1222018D100913CCB /* SimpleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9702CFA4222018D100913CCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9702CFA5222018D100913CCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9702CFA7222018D100913CCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9702CFA8222018D100913CCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9702CFAB222018D100913CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9702CFAD222018D200913CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9702CFB0222018D200913CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9702CFB2222018D200913CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9702CFB3222018D200913CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9702CFBA22201AEB00913CCB /* MazeAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MazeAlgorithm.h; sourceTree = "<group>"; };
+		9702CFBB22201AEB00913CCB /* MazeAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MazeAlgorithm.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9702CF9E222018D100913CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9702CF98222018D100913CCB = {
+			isa = PBXGroup;
+			children = (
+				9702CFA3222018D100913CCB /* SimpleMaze */,
+				9702CFA2222018D100913CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9702CFA2222018D100913CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9702CFA1222018D100913CCB /* SimpleMaze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9702CFA3222018D100913CCB /* SimpleMaze */ = {
+			isa = PBXGroup;
+			children = (
+				9702CFA4222018D100913CCB /* AppDelegate.h */,
+				9702CFA5222018D100913CCB /* AppDelegate.m */,
+				9702CFA7222018D100913CCB /* ViewController.h */,
+				9702CFA8222018D100913CCB /* ViewController.m */,
+				9702CFBA22201AEB00913CCB /* MazeAlgorithm.h */,
+				9702CFBB22201AEB00913CCB /* MazeAlgorithm.m */,
+				9702CFAA222018D100913CCB /* Main.storyboard */,
+				9702CFAD222018D200913CCB /* Assets.xcassets */,
+				9702CFAF222018D200913CCB /* LaunchScreen.storyboard */,
+				9702CFB2222018D200913CCB /* Info.plist */,
+				9702CFB3222018D200913CCB /* main.m */,
+			);
+			path = SimpleMaze;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9702CFA0222018D100913CCB /* SimpleMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9702CFB7222018D200913CCB /* Build configuration list for PBXNativeTarget "SimpleMaze" */;
+			buildPhases = (
+				9702CF9D222018D100913CCB /* Sources */,
+				9702CF9E222018D100913CCB /* Frameworks */,
+				9702CF9F222018D100913CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMaze;
+			productName = SimpleMaze;
+			productReference = 9702CFA1222018D100913CCB /* SimpleMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9702CF99222018D100913CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = everyu;
+				TargetAttributes = {
+					9702CFA0222018D100913CCB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9702CF9C222018D100913CCB /* Build configuration list for PBXProject "SimpleMaze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9702CF98222018D100913CCB;
+			productRefGroup = 9702CFA2222018D100913CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9702CFA0222018D100913CCB /* SimpleMaze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9702CF9F222018D100913CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9702CFB1222018D200913CCB /* LaunchScreen.storyboard in Resources */,
+				9702CFAE222018D200913CCB /* Assets.xcassets in Resources */,
+				9702CFAC222018D100913CCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9702CF9D222018D100913CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9702CFA9222018D100913CCB /* ViewController.m in Sources */,
+				9702CFB4222018D200913CCB /* main.m in Sources */,
+				9702CFBC22201AEB00913CCB /* MazeAlgorithm.m in Sources */,
+				9702CFA6222018D100913CCB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9702CFAA222018D100913CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9702CFAB222018D100913CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9702CFAF222018D200913CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9702CFB0222018D200913CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9702CFB5222018D200913CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9702CFB6222018D200913CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9702CFB8222018D200913CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = everyu.SimpleMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9702CFB9222018D200913CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = everyu.SimpleMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9702CF9C222018D100913CCB /* Build configuration list for PBXProject "SimpleMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9702CFB5222018D200913CCB /* Debug */,
+				9702CFB6222018D200913CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9702CFB7222018D200913CCB /* Build configuration list for PBXNativeTarget "SimpleMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9702CFB8222018D200913CCB /* Debug */,
+				9702CFB9222018D200913CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9702CF99222018D100913CCB /* Project object */;
+}
